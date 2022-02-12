@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS razas;
 
 
 CREATE TABLE razas (
-    id_mascota SMALLINT(2) AUTO_INCREMENT,
+    id_razas SMALLINT(2) AUTO_INCREMENT,
     raza VARCHAR(25) NOT NULL DEFAULT '',
     PRIMARY KEY (id_mascota),
     UNIQUE (raza)
